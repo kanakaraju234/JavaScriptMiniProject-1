@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>javascript Project</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <h1>JavaScript Mini Project</h1>
+        <form id="quiz" name="quiz">
+            <p>what is the capital of Rhode Island?</p>
+            <input id="textbox" type="text" name="question1">
+            
+            <p>what is the capital of Connecticut?</p>
+             <input type="radio" id="mc" name="question2" value="Hartford">HartFord<br>
+            <input type="radio" id="mc" name="question2" value="Heartford">HeartFord<br>
+            
+             <p>what is the capital of NewYork?</p>
+              <input type="radio" id="mc" name="question3" value="Albany">Albany<br>
+            <input type="radio" id="mc" name="question3" value="All Beny's">All Beny's<br>
+            
+            <input id="button" type="button" value="I'm finished" onclick="check();">
+        </form>
+        
+        <div id="after_submit">
+            <p id="message"></p>
+            <p id="number_correct"></p>
+           <img id="picture">
+        </div>
+    </body>
+</html>
